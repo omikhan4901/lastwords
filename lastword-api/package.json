@@ -1,0 +1,24 @@
+{
+  "name": "lastword-api",
+  "version": "1.0.0",
+  "description": "The api for my last words website",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Omi Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.11"
+  }
+}
